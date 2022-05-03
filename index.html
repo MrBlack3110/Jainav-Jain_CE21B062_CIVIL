@@ -1,45 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHAASTRA-Spark</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" type="text/css" href="index.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spark</title>
-</head>
-
-<body>
-    <img src="https://scontent-bom1-2.xx.fbcdn.net/v/t39.30808-6/271209470_4827440153968326_1008071835895370353_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=2LYd5kTJVG4AX8LYcd1&_nc_ht=scontent-bom1-2.xx&oh=00_AT-hzuGkjzMl61AqRbSPEvWSkcGSKcv82LgAYgNq--0pVw&oe=6271A19A"
-        alt="Shaastra logo" width="90px" style="float: left;">
-    <div style="text-align: center;">
-        <h1>SHAASTRA</h1>
-        <h1>SPARK</h1>
-    </div>
-    <div>
-        <button onclick="myFunction()">ABOUT</button>
-        <p id="demo"></p>
-        <script>
-            function myFunction() {
-                document.getElementById("demo").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quo inventore fugit commodi ipsum, accusamus ipsam optio rerum corporis id sunt obcaecati excepturi beatae? Reprehenderit eaque impedit nisi, voluptatum repudiandae earum et dignissimos recusandae placeat?";
-            }
-        </script>
-    </div>
-    <div>
-        <button onclick="myFunction1()">CONTACT</button>
-        <p id="demo1"></p>
-        <script>
-            function myFunction1() {
-                document.getElementById("demo1").innerHTML = "1111111111-mobile, 00000000-landline";
-            }
-        </script>
-    </div>
-    <label for="event">EVENT TIMELINE</label>
-    <select name="event" id="event">
-        <option value="29 Apr, 2022">29th Apr, 2022</option>
-        <option value="30 Apr, 2022">30th Apr, 2022</option>
-        <option value="1 May, 2022">1st May, 2022</option>
-    </select>
-
-</body>
-
+  <body>
+    <header>
+      <div class="container">
+        <div class="left">
+          <img
+            src="https://scontent-bom1-2.xx.fbcdn.net/v/t39.30808-6/271209470_4827440153968326_1008071835895370353_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=VquM2b72o3YAX9APUoe&_nc_ht=scontent-bom1-2.xx&oh=00_AT9Scne7-I7rp8GylFXrWHUdCtdVSqLA6Ghcar8-Q--mSw&oe=6275961A"
+            alt=""
+          />
+          <h2>-SPARK-</h2>
+        </div>
+        <div class="mid">
+          <nav class="navbar">
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a
+                  href="https://shaastramag.iitm.ac.in/about-shaastra"
+                  target="_blank"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="https://shaastramag.iitm.ac.in/contact-us"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="dates">
+                <label for="dates">Timeline</label>
+                <select name="" id="dates">
+                  <option value="none">Select event date</option>
+                  <option value="date1">29th Apr, 2022</option>
+                  <option value="date2">30th Apr, 2022</option>
+                  <option value="date3">1st May, 2022</option>
+                </select>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="right">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Search_Icon.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1>Welcome To SPARK</h1>
+    </main>
+  </body>
 </html>
