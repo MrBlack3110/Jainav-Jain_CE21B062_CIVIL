@@ -69,3 +69,9 @@ h1 {
   font-size: 50px;
   color: #00e8ff;
 }
+select{
+  border-radius: 20px;
+  border-color: #feb2b2;
+  margin-left: 15px;
+  text-align: center;
+}
